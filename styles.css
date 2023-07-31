@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* ### Primary */
+
+--Moderate-violet: hsl(263, 55%, 52%);
+--Very-dark-grayish-blue: hsl(217, 19%, 35%);
+--Very-dark-blackish-blue: hsl(219, 29%, 14%);
+--White: hsl(0, 0%, 100%);
+
+/* ### Neutral */
+
+--Light-gray: hsl(0, 0%, 81%);
+--Light-grayish-blue: hsl(210, 46%, 95%);
+}
+body{
+    background-color: var(--Light-grayish-blue);
+    font-family: "Barlow Semi Condensed";
+}
+main{
+    padding: 4.3rem 1.5rem;
+    /* max-width: 1140px; */
+}
+main .left .top .first{
+    background-color: var(--Moderate-violet);
+    box-shadow: 20px 20px 40px rgb(218, 218, 218);
+}
+main .left .top .first .profile h3{
+    font-size: .8rem;
+}
+main .left .top .first .profile p{
+    font-size: .7rem;
+}
+main .left .top .first h2{
+    font-size: 1.07rem;
+    letter-spacing: .06rem;
+    line-height: 1.45rem;
+}
+main .left .top .first p{
+    font-size: .85rem;
+    color: var(--Light-gray);
+    line-height: 1.1rem;
+}
+main .left .top .second{
+    background-color: var(--Very-dark-grayish-blue);
+    box-shadow: 20px 20px 40px rgb(218, 218, 218);
+}
+main .left .top .second h2{
+    font-size: 1.07rem;
+    letter-spacing: .06rem;
+    line-height: 1.4rem;
+}
+main .left .top .second p{
+    font-size: .85rem;
+    color: var(--Light-gray);
+    line-height: 1.1rem;
+}
+main .left .top .second .profile h3{
+    font-size: .8rem;
+}
+main .left .top .second .profile p{
+    font-size: .7rem;
+}
+
+
+
+main .left .bottom .first .profile h3{
+    font-size: .8rem;
+}
+main .left .bottom .first .profile p{
+    font-size: .7rem;
+}
+main .left .bottom .first h2{
+    font-size: 1.07rem;
+    letter-spacing: .06rem;
+    line-height: 1.45rem;
+}
+main .left .bottom .first p{
+    font-size: .85rem;
+    color: var(--Light-gray);
+    line-height: 1.1rem;
+}
+main .left .bottom .second{
+    background-color: var(--Very-dark-grayish-blue);
+}
+main .left .bottom .second h2{
+    font-size: 1.07rem;
+    letter-spacing: .06rem;
+    line-height: 1.4rem;
+}
+main .left .bottom .second p{
+    font-size: .85rem;
+    color: var(--Light-gray);
+    line-height: 1.1rem;
+}
+main .left .bottom .second .profile h3{
+    font-size: .8rem;
+}
+main .left .bottom .second .profile p{
+    font-size: .7rem;
+}
+main .left .bottom .first{
+    background-color: var(--White);
+    box-shadow: 20px 20px 40px rgb(218, 218, 218);
+}
+main .left .bottom .second{
+    background-color: var(--Very-dark-blackish-blue);
+    box-shadow: 20px 20px 40px rgb(218, 218, 218);
+}
+
+
+
+main .right{
+    background-color: var(--White);
+    box-shadow: 20px 20px 40px rgb(218, 218, 218);
+}
+main .right .profile h3{
+    font-size: .8rem;
+}
+main .right .profile p{
+    font-size: .7rem;
+}
+main .right h2{
+    font-size: 1.07rem;
+    letter-spacing: .06rem;
+    line-height: 1.45rem;
+}
+main .right p{
+    font-size: .85rem;
+    color: var(--Light-gray);
+    line-height: 1rem;
+}
+@media only screen and (min-width: 768px){
+    main{
+        padding: 0 1.5rem;
+        max-width: 1160px;
+    }
+}
